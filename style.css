@@ -1,0 +1,243 @@
+html, body{
+	height:100%;
+	font-family: 'Quicksand', sans-serif;
+	position: relative;
+}
+
+
+
+.navbar{
+background: rgba(73, 84, 91, 0.84);
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 50px;
+padding-right: 50px;
+transition:1s;
+
+}
+.navbar .active{
+	background:#4bcaff;
+	border-radius:5%;
+}
+
+#header{
+	background: url('images/banner_bg.jpg');
+	height:100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow-y: hidden;
+}
+
+.heading{
+
+margin-top:20%;
+color:white;
+}
+.heading h2{
+	line-height:150%; 
+	font-size: 44px;
+}
+.bg-heading{
+	background: rgba(73, 84, 91, 0.84);
+}
+
+@media(max-width: 576px)
+{
+	.heading h2{
+		font-size: 12px;
+		margin-top:40%;
+		margin-bottom: 10%;
+	}
+}
+
+
+@media(max-width: 992px)
+{
+	.heading h2{
+		margin-top:40%;
+		font-size: 16px;
+		line-height:100%;
+		margin-bottom: 10%;
+	}
+#header{
+	padding-bottom: 50px;
+}
+.navbar{
+	padding:0px;
+}
+}
+
+
+
+#services{
+	background: #4bcaff;
+	//height:100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.heading-title{
+padding-top:10px;
+padding-bottom:10px;
+
+}
+.heading-text-light{
+	color:#fff;
+}
+.light{
+height:5px;
+background: white;
+	width:50px;
+	display: inline-block;
+	margin-top: 0px
+}
+.service-icons{
+	
+	font-size: 60px;
+	color:white;
+	text-align: center;
+}
+.service-icons h3{
+margin-top: 20px;
+	font-size: 22px;
+}
+.service-icons p{
+	font-size: 18px;
+}
+
+#portfolio{
+
+padding-bottom:50px ;
+padding-top: 50px;
+
+}
+
+.heading-text-dark{
+color:#333;	
+}
+
+
+ .dark{
+height:5px;
+background: #333;
+width:50px;
+display: inline-block;
+margin-top: 0px;
+
+}
+
+.portfolio-menu{
+margin-top: 10px;
+padding-right: 0px;
+
+
+}
+.item{
+font-weight: bold;
+text-align: center;
+}
+.image{
+margin-top: 10px;
+transition:1s;
+}
+#testimonial{
+padding-top: 50px;
+padding-bottom: 50px;
+background: #515f67;
+
+}
+
+
+
+.carousel-item{
+	height:300px;
+	border:1px solid white;
+
+}
+#ourpartners{
+padding-top: 50px;
+padding-bottom: 50px;
+
+
+}
+#contact{
+
+background: #4bcaff;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.
+map{
+	border:1px solid white;
+}
+
+
+
+.navbar a{
+color:white;
+font-weight: bold;
+text-transform: uppercase;
+}
+.navbar-brand{
+
+	 font-weight: bold;
+	 font-size: 36px;
+	 color:white;
+}
+#footer{
+background: url('images/join_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+
+
+}
+.footer{
+
+color:white;
+text-align: center;
+}
+
+.map{
+	border: 1px solid white;
+}
+.login{
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	z-index:999;
+}
+.bg-dark{
+	padding:0px;
+}
+.image:hover{
+	transform:scale(1.1);
+}
+.partner:hover img{
+	filter:blur(2px);	
+	transition:1s;
+	
+}
+.partner-name{
+	position:absolute;
+	left:35%;
+	top:40%;
+	font-weight:bold;
+	color:white;
+	display:none;
+}
+.partner:hover .partner-name{
+	display:block;
+}
+.social:hover{
+	transition:1s;
+	cursor:pointer;
+	transform:all ease-in-out;
+	transform:rotate(360deg);
+}
+.navbar{
+	float:right;
+}
